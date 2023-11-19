@@ -1,8 +1,4 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap'); */
-
- /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); */
-
- @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@600&family=Roboto:wght@400;500&display=swap');
 
  * {
    box-sizing: border-box;
@@ -86,11 +82,6 @@ body {
    ;
  }
 
- /*navbar*/
- /* span:nth-child(2) {
-   margin-left: auto;
- } */
-
  h1 {
    font-size: 40px;
    font-weight: bold;
@@ -136,8 +127,11 @@ body {
    width: 50%;
  }
 
+.imgintro:hover {
+opacity: 0.8;
+ }
 
- .imgdrink {
+ .imgdrink, .imgpast {
    width: 280px;
    height: 200px;
    display: block;
@@ -149,16 +143,8 @@ body {
    border: 2px solid #3E3E3E;
  }
 
- .imgpast {
-   width: 280px;
-   height: 200px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-   border: 2px solid #3E3E3E;
+ .imgdrink:hover, .imgpast:hover{
+  opacity: 0.8;
  }
 
  a {
@@ -182,6 +168,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin-top: 3px;
  }
 
  /* Style inputs */
