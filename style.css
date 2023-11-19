@@ -35,7 +35,9 @@ body {
    margin-top: auto;
  }
 
-.maincont{min-height: 100%;}
+ .maincont{
+  min-height: 100%;
+ }
  /* Container for flexboxes */
  .row {
    display: -webkit-flex;
@@ -56,8 +58,6 @@ body {
    flex: 1;
 
  }
-
- /* Style the footer */
 
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
  @media (max-width: 600px) {
@@ -83,7 +83,7 @@ body {
  }
 
  h1 {
-   font-size: 40px;
+   font-size: 30px;
    font-weight: bold;
    line-height: 18pt;
    color: #425e3f;
