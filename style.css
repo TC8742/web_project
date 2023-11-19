@@ -98,6 +98,8 @@ body {
  }
 
  p {
+  display: flex;
+  align-items: center;
    text-align: center;
    color: #000000;
    margin-left: auto;
