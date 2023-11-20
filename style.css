@@ -176,66 +176,6 @@ opacity: 0.8;
    margin-top: 3px;
  }
 
- /* Style inputs */
- input[type=text],
- select,
- textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid #3E3E3E;
-   margin-top: 6px;
-   margin-bottom: 16px;
-   resize: vertical;
- }
-
- input:focus,
- textarea {
-   outline: none !important;
- }
-
- input[type=submit] {
-   background-color: #3E3E3E;
-   color: #FFF;
-   padding: 12px 20px;
-   border: none;
-   cursor: pointer;
- }
-
- input[type=submit]:hover {
-   background-color: #425e3f;
- }
-
- /* Style the container/contact section */
- .formcont {
-   border-radius: 5px;
-   background-color: #FEFEFE;
-   padding: 10px;
-   color: #000;
- }
-
- /* Create two columns that float next to eachother */
- .formcol {
-   float: left;
-   width: 50%;
-   margin-top: 6px;
-   padding: 20px;
- }
-
- /* Clear floats after the columns */
- .formrow:after {
-   content: "";
-   display: table;
-   clear: both;
- }
-
- .opentimes{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: roboto;
-  font-size: 12px;
-
- }
  th {
   text-align: right; 
 }
