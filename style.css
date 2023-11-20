@@ -7,7 +7,7 @@
  }
 
 body {
-   font: 15px mohave, Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font: 15px mohave, roboto, Verdana, Geneva, Arial, Helvetica, sans-serif;
    min-height: 100vh;
    display: flex;
    flex-direction: column;
@@ -99,10 +99,9 @@ body {
  }
 
  p {
+   font-family: roboto;
    text-align: center;
    color: #000000;
-   /* margin-left: auto;
-   margin-right: auto; */
    padding-left: 10px;
    padding-right: 10px;
    max-width: 550px;
@@ -227,3 +226,13 @@ opacity: 0.8;
    display: table;
    clear: both;
  }
+
+ .opentimes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ th {
+  text-align: right; 
+}
